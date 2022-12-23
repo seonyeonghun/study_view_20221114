@@ -51,19 +51,97 @@ th,td {
 	padding: .7rem 0;
 	text-align: center;	
 }
-.enter-fee {
+caption {
+	font-size: 1.125em; /* px -> % */
+	font-weight: bold; /* 글꼴-두께: 굵게 */
+	margin-bottom: 1em;
+}
+.enter-fee, .daily-casting {
 	width: 600px; /* Q. 가로는 어떻게?? 블럭요소 100%, 인라인 요소는 컨텐츠 만큼 */
 	margin: 50px auto 30px;
 	/* Q. 그럼 세로는?? Auto로 설정!*/
 }
+.enter-fee th, .daily-casting th {
+	width:25%;
+}
+.daily-casting td {
+	width: 75%;
+	text-align: left;
+	padding: 0 0 0 3em;
+}
 .valign-middle {
 	vertical-align: middle; /* 테이블, 인라인 요소의 수직 정렬에만 사용 */
+}
+.cell-bg {
+	background-color: #ffeded;
+}
+
+.site-subnav {
+	color: #666;
+	font-size: 13px;
+	background-color: #fafafa;
+	text-align: center;
+	padding: 1rem 0;
+	border-top: 1px solid #666;
+}
+.site-subnav a {
+	margin-right: 1rem;
+}
+.site-subnav a:hover {
+	text-decoration: underline;
+}
+
+.site-info {
+	background-color: #000;
+	font-size: 81.25%;
+	text-align: center;	
+}
+
+.site-info p {
+	color: #666;
+	margin: 0 0 1rem 0;
 }
 
 
 
-
-
-
-
+@media screen and (max-width: 768px){
+	html {
+		font-size: 20px;
+	}
+	.site-visual {
+		background-size: cover;
+		margin-top: 2rem;
+	}
+	.model {
+		width: 90%;		
+	}
+}
+@media screen and (max-width: 420px){
+	/* body {
+		background-color: lime;
+	} */
+}
+/* Q. width: 360일대 body의 배경색상을 pink로 지정해보세요! */
+@media screen and (max-width: 360px){
+	.site-visual {
+		height: 9rem;
+		background-position-x: 37%;
+		background-size: 300%;
+	}
+	.model {
+		display: none;
+	}
+	.site-nav a {
+		font-size: .7rem;
+	}
+	.enter-fee {
+		width: 95%;		
+	}
+	.enter-fee th {
+		font-size: .8rem
+	}
+	.enter-fee td {
+		font-size: .7rem
+	}
+}
 

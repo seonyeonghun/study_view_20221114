@@ -7,7 +7,8 @@
   ※ Hack, spoqa 등등..인기있는 코딩용 폰트를 두루 써보시길 권함!  
 
   Eclipse > Window > Preferences > General > Appearance > Colors and Fonts 에서
-  Basic - Text Font  [Edit..] 버튼 클릭, 글꼴(F) 에서 D2Coding 어쩌구를 선택
+  Basic - Text Font  [Edit..] 버튼 클릭, 글꼴(F) 에서 D2Coding 어쩌구를 선택, 적용된
+  글꼴등을 확인합니다.
 
   ※ 글꼴 크기는 단축키 [CTRL]+[+/-]로 조정
   ※ D2Coding 또는 D2Coding Ligature를 선택적으로 설치 한 뒤, 해당글골을
